@@ -15,9 +15,9 @@ current_method = "Random Forest"
 print(f"Starting exection for {current_method} method.")
 
 # Load data
-train_path = '/Users/briannamurphy/Documents/WMU/Classes/Machine Learning/Group Project/Data/train_data.xlsx'
+train_path = 'train_data.xlsx'
 train_data = pd.read_excel(train_path, sheet_name = 'Log Transformed')
-test_path = '/Users/briannamurphy/Documents/WMU/Classes/Machine Learning/Group Project/Data/test_data.xlsx'
+test_path = 'test_data.xlsx'
 test_data =  pd.read_excel(test_path, sheet_name = None)
 print("Data has been loaded.")
 
